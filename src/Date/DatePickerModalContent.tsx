@@ -153,23 +153,23 @@ export function DatePickerModalContent(
           disableSafeTop={disableSafeTop}
           closeIcon={props.closeIcon}
         />
-        <DatePickerModalContentHeader
-          state={state}
-          mode={mode}
-          collapsed={collapsed}
-          onToggle={onToggleCollapse}
-          headerSeparator={props.headerSeparator}
-          emptyLabel={props.emptyLabel}
-          label={props.label}
-          moreLabel={props.moreLabel}
-          startLabel={props.startLabel}
-          endLabel={props.endLabel}
-          uppercase={props.uppercase ?? defaultUppercase}
-          locale={locale}
-          editIcon={props?.editIcon}
-          calendarIcon={props.calendarIcon}
-          allowEditing={props.allowEditing ?? true}
-        />
+        {/* <DatePickerModalContentHeader */}
+        {/*   state={state} */}
+        {/*   mode={mode} */}
+        {/*   collapsed={collapsed} */}
+        {/*   onToggle={onToggleCollapse} */}
+        {/*   headerSeparator={props.headerSeparator} */}
+        {/*   emptyLabel={props.emptyLabel} */}
+        {/*   label={props.label} */}
+        {/*   moreLabel={props.moreLabel} */}
+        {/*   startLabel={props.startLabel} */}
+        {/*   endLabel={props.endLabel} */}
+        {/*   uppercase={props.uppercase ?? defaultUppercase} */}
+        {/*   locale={locale} */}
+        {/*   editIcon={props?.editIcon} */}
+        {/*   calendarIcon={props.calendarIcon} */}
+        {/*   allowEditing={props.allowEditing ?? true} */}
+        {/* /> */}
       </DatePickerModalHeaderBackground>
       <AnimatedCrossView
         collapsed={collapsed}
