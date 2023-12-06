@@ -12,7 +12,7 @@ import Calendar, {
 
 import AnimatedCrossView from './AnimatedCrossView'
 import DatePickerModalHeader from './DatePickerModalHeader'
-import DatePickerModalContentHeader, {
+import {
   HeaderPickProps,
 } from './DatePickerModalContentHeader'
 import CalendarEdit from './CalendarEdit'
@@ -133,10 +133,6 @@ export function DatePickerModalContent(
       })
     }
   }, [state, mode, onConfirm])
-
-  const onToggleCollapse = React.useCallback(() => {
-    setCollapsed((prev) => !prev)
-  }, [setCollapsed])
 
   const theme = useTheme()
   const defaultUppercase = !theme.isV3
