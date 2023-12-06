@@ -107,7 +107,7 @@ export function DatePickerModalContent(
     })
   }, [anyProps.date, anyProps.startDate, anyProps.endDate, anyProps.dates])
 
-  const [collapsed, setCollapsed] = React.useState<boolean>(true)
+  const [collapsed] = React.useState<boolean>(true)
 
   const onInnerChange = React.useCallback(
     (params: any) => {
